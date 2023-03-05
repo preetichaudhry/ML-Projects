@@ -1,0 +1,2218 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.0822.2038                               -->
+<workbook source-build='2021.3.0 (20213.21.0822.2038)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (KW Report Main)' inline='true' name='federated.138lbl30ul6s6e10fjq9h0hrl1gb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Main_Dataset' name='excel-direct.1cmu0c91q3rmbg15ajj6o1m44vtl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Aditya/Desktop/MSBA/5360-Data Viz/Project_Proposal/Main_Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1cmu0c91q3rmbg15ajj6o1m44vtl' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:U5138:no:A1:U5138:0' header='yes' outcome='2'>
+            <column datatype='date' name='Month-Year' ordinal='0' />
+            <column datatype='integer' name='Month' ordinal='1' />
+            <column datatype='string' name='Keyword' ordinal='2' />
+            <column datatype='string' name='Keyword Type' ordinal='3' />
+            <column datatype='string' name='Keyword theme' ordinal='4' />
+            <column datatype='string' name='Campaign' ordinal='5' />
+            <column datatype='string' name='Campaign Type' ordinal='6' />
+            <column datatype='string' name='Ad group' ordinal='7' />
+            <column datatype='integer' name='Clicks' ordinal='8' />
+            <column datatype='integer' name='Impressions' ordinal='9' />
+            <column datatype='real' name='CTR' ordinal='10' />
+            <column datatype='real' name='Avg. CPC' ordinal='11' />
+            <column datatype='real' name='Cost' ordinal='12' />
+            <column datatype='real' name='Conv. rate' ordinal='13' />
+            <column datatype='real' name='Avg. pos.' ordinal='14' />
+            <column datatype='integer' name='Sessions' ordinal='15' />
+            <column datatype='integer' name='Conversion' ordinal='16' />
+            <column datatype='integer' name='GA Transactions' ordinal='17' />
+            <column datatype='integer' name='Bounced Sessions' ordinal='18' />
+            <column datatype='real' name='Bounce Rate' ordinal='19' />
+            <column datatype='real' name='Cum Avg Position' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1cmu0c91q3rmbg15ajj6o1m44vtl' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:U5138:no:A1:U5138:0' header='yes' outcome='2'>
+            <column datatype='date' name='Month-Year' ordinal='0' />
+            <column datatype='integer' name='Month' ordinal='1' />
+            <column datatype='string' name='Keyword' ordinal='2' />
+            <column datatype='string' name='Keyword Type' ordinal='3' />
+            <column datatype='string' name='Keyword theme' ordinal='4' />
+            <column datatype='string' name='Campaign' ordinal='5' />
+            <column datatype='string' name='Campaign Type' ordinal='6' />
+            <column datatype='string' name='Ad group' ordinal='7' />
+            <column datatype='integer' name='Clicks' ordinal='8' />
+            <column datatype='integer' name='Impressions' ordinal='9' />
+            <column datatype='real' name='CTR' ordinal='10' />
+            <column datatype='real' name='Avg. CPC' ordinal='11' />
+            <column datatype='real' name='Cost' ordinal='12' />
+            <column datatype='real' name='Conv. rate' ordinal='13' />
+            <column datatype='real' name='Avg. pos.' ordinal='14' />
+            <column datatype='integer' name='Sessions' ordinal='15' />
+            <column datatype='integer' name='Conversion' ordinal='16' />
+            <column datatype='integer' name='GA Transactions' ordinal='17' />
+            <column datatype='integer' name='Bounced Sessions' ordinal='18' />
+            <column datatype='real' name='Bounce Rate' ordinal='19' />
+            <column datatype='real' name='Cum Avg Position' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:U5138:no:A1:U5138:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month-Year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Month-Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Month-Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Keyword</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Keyword]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Keyword</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Keyword Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Keyword Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Keyword Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Keyword theme</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Keyword theme]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Keyword theme</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaign</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaign]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Campaign</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaign Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaign Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Campaign Type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ad group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ad group]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Ad group</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clicks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Clicks]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Clicks</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Impressions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Impressions]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Impressions</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CTR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CTR]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CTR</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg. CPC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg. CPC]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Avg. CPC</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cost</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conv. rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Conv. rate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Conv. rate</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg. pos.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg. pos.]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Avg. pos.</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sessions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sessions]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sessions</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conversion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Conversion]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Conversion</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GA Transactions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GA Transactions]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>GA Transactions</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bounced Sessions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bounced Sessions]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Bounced Sessions</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bounce Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bounce Rate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Bounce Rate</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cum Avg Position</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cum Avg Position]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cum Avg Position</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Campaign Type]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Clicks]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Conv. rate]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Conversion]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Keyword theme]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5]' role='measure' type='quantitative' />
+      <column-instance column='[Conv. rate]' derivation='Avg' name='[avg:Conv. rate:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Campaign Type]' derivation='None' name='[none:Campaign Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Keyword theme]' derivation='None' name='[none:Keyword theme:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Clicks]' derivation='Sum' name='[sum:Clicks:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Conversion]' derivation='Sum' name='[sum:Conversion:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Campaign Type:nk]&#10;[:Measure Names]' type='palette'>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;Brand Partners&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;Generic&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;Competitor&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;Brand Turtlemint&quot;</bucket>
+            </map-pri>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Conv. rate:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Keyword theme:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Buy&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Oriental&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Instant&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;National&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Expired&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Quotes&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Best&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Online&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Two Wheeler Insurance&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Videocon Liberty&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Compare&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Plan&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Reliance&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;HDFC Ergo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Turtlemint&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Premium&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Companies&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Motorcycle&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Rate&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Renewal&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;New India&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Policy Bazaar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Policies&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;2 wheeler insurance&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bajaj Allianz&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;United&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cheap&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Icici&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Activa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Iffko Tokio&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tata AIG&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bike Insurance&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Calculator&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bharti Axa&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Scooter Insurance&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_61F4BCA7151D49759A8CAA38BAFEACB5'>
+            <properties context=''>
+              <relation connection='excel-direct.1cmu0c91q3rmbg15ajj6o1m44vtl' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:U5138:no:A1:U5138:0' header='yes' outcome='2'>
+                  <column datatype='date' name='Month-Year' ordinal='0' />
+                  <column datatype='integer' name='Month' ordinal='1' />
+                  <column datatype='string' name='Keyword' ordinal='2' />
+                  <column datatype='string' name='Keyword Type' ordinal='3' />
+                  <column datatype='string' name='Keyword theme' ordinal='4' />
+                  <column datatype='string' name='Campaign' ordinal='5' />
+                  <column datatype='string' name='Campaign Type' ordinal='6' />
+                  <column datatype='string' name='Ad group' ordinal='7' />
+                  <column datatype='integer' name='Clicks' ordinal='8' />
+                  <column datatype='integer' name='Impressions' ordinal='9' />
+                  <column datatype='real' name='CTR' ordinal='10' />
+                  <column datatype='real' name='Avg. CPC' ordinal='11' />
+                  <column datatype='real' name='Cost' ordinal='12' />
+                  <column datatype='real' name='Conv. rate' ordinal='13' />
+                  <column datatype='real' name='Avg. pos.' ordinal='14' />
+                  <column datatype='integer' name='Sessions' ordinal='15' />
+                  <column datatype='integer' name='Conversion' ordinal='16' />
+                  <column datatype='integer' name='GA Transactions' ordinal='17' />
+                  <column datatype='integer' name='Bounced Sessions' ordinal='18' />
+                  <column datatype='real' name='Bounce Rate' ordinal='19' />
+                  <column datatype='real' name='Cum Avg Position' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='CL ConverVs CVR'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Campaign Level Conversion vs Conversion Rate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (KW Report Main)' name='federated.138lbl30ul6s6e10fjq9h0hrl1gb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.138lbl30ul6s6e10fjq9h0hrl1gb'>
+            <column datatype='string' name='[Campaign Type]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Conv. rate]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Conversion]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Month-Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Conv. rate]' derivation='Avg' name='[avg:Conv. rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month-Year]' derivation='Month' name='[mn:Month-Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Campaign Type]' derivation='None' name='[none:Campaign Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Conversion]' derivation='Sum' name='[sum:Conversion:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' shelf='rows'>
+              <sort-filter-info>
+                <sort-filter level-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok]' member-value='3' />
+              </sort-filter-info>
+            </shelf-sort-v2>
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Conv. rate:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' field-type='quantitative' max='20' min='0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok]' value='120' />
+            <format attr='text-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' value='left' />
+            <format attr='vertical-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' value='center' />
+            <format attr='text-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Conv. rate:qk]' value='right' />
+            <format attr='vertical-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Conv. rate:qk]' value='top' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]' />
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Conv. rate:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]' />
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Conv. rate:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk] * ([federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk] + [federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Conv. rate:qk]))</rows>
+        <cols>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok]</cols>
+      </table>
+      <simple-id uuid='{45371C89-322F-4767-A41E-2F97EFD32DDF}' />
+    </worksheet>
+    <worksheet name='CPC and CTR'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Campaign Level Conversion vs Cost Per Click (CPC) &amp; Click Through Rate (CTR)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (KW Report Main)' name='federated.138lbl30ul6s6e10fjq9h0hrl1gb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.138lbl30ul6s6e10fjq9h0hrl1gb'>
+            <column datatype='real' name='[Avg. CPC]' role='measure' type='quantitative' />
+            <column datatype='real' name='[CTR]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Campaign Type]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Month-Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Avg. CPC]' derivation='Avg' name='[avg:Avg. CPC:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CTR]' derivation='Avg' name='[avg:CTR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month-Year]' derivation='Month' name='[mn:Month-Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Campaign Type]' derivation='None' name='[none:Campaign Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]'>
+            <groupfilter function='level-members' level='[none:Campaign Type:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]' value='52' />
+            <format attr='width' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]' value='52' />
+            <encoding attr='space' class='0' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok]' value='123' />
+            <format attr='text-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]' value='left' />
+            <format attr='vertical-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]' value='top' />
+            <format attr='text-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]' value='right' />
+            <format attr='vertical-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]' value='bottom' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='font-style' value='normal' />
+            <format attr='font-weight' value='normal' />
+            <format attr='text-orientation' value='0' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]' />
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]' />
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk] * ([federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk] + [federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]))</rows>
+        <cols>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok]</cols>
+      </table>
+      <simple-id uuid='{E252CD1A-17C2-4FB0-B987-6203EBB4848D}' />
+    </worksheet>
+    <worksheet name='Campaign type BR'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Campaing Type Bounce Rate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (KW Report Main)' name='federated.138lbl30ul6s6e10fjq9h0hrl1gb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.138lbl30ul6s6e10fjq9h0hrl1gb'>
+            <column datatype='real' name='[Bounce Rate]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Campaign Type]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Month-Year]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Sessions]' role='measure' type='quantitative' />
+            <column-instance column='[Bounce Rate]' derivation='Avg' name='[avg:Bounce Rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month-Year]' derivation='Month' name='[mn:Month-Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Campaign Type]' derivation='None' name='[none:Campaign Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Bounce Rate]' derivation='Sum' name='[sum:Bounce Rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sessions]' derivation='Sum' name='[sum:Sessions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month-Year]' derivation='Year' name='[yr:Month-Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Bounce Rate:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[yr:Month-Year:ok]' value='778' />
+            <format attr='width' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok]' value='778' />
+            <format attr='text-format' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Sessions:qk]' value='n#,##0,K;-#,##0,K' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Sessions:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]' />
+              <lod column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Sessions:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Bounce Rate:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]' />
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Bounce Rate:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk] * ([federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Sessions:qk] + [federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Bounce Rate:qk]))</rows>
+        <cols>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok]</cols>
+      </table>
+      <simple-id uuid='{0F6A22E5-38CF-4755-B327-7679F200F7B0}' />
+    </worksheet>
+    <worksheet name='Generic KW Theme'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (KW Report Main)' name='federated.138lbl30ul6s6e10fjq9h0hrl1gb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.138lbl30ul6s6e10fjq9h0hrl1gb'>
+            <column datatype='integer' name='[Clicks]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Conversion]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Keyword theme]' role='dimension' type='nominal' />
+            <column-instance column='[Keyword theme]' derivation='None' name='[none:Keyword theme:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Clicks]' derivation='Sum' name='[sum:Clicks:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Conversion]' derivation='Sum' name='[sum:Conversion:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Keyword theme:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Activa&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Bajaj Allianz&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Best&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;HDFC Ergo&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Icici&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Iffko Tokio&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Policy Bazaar&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Quotes&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Reliance&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Tata AIG&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Turtlemint&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;United&quot;' />
+                <groupfilter function='member' level='[none:Keyword theme:nk]' member='&quot;Videocon Liberty&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' field-type='quantitative' fold='true' max='1178' min='-200' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]' field-type='quantitative' max='26357' min='-1395' range-type='fixed' scope='rows' type='space' />
+            <format attr='width' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]' value='72' />
+            <format attr='width' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' value='72' />
+            <format attr='height' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]' value='77' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]' value='104' />
+            <format attr='vertical-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]' value='bottom' />
+            <format attr='vertical-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' value='top' />
+            <format attr='wrap' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' value='off' />
+            <format attr='text-orientation' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' value='0' />
+            <format attr='text-align' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' value='right' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]' />
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk] + [federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk])</rows>
+        <cols>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]</cols>
+        <annotations>
+          <annotation class='area' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run>Top 5 keyword themes as per the conversion rate are Online, Two Wheeler, Renewal and Scooter Insurance.</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.2'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;New India&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='26357.0'>
+                  <node-reference>
+                    <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;Activa&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='16682.887323943662'>
+                  <node-reference>
+                    <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='1' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run>Tope Keyword theme as per conversion rates are Online, Two wheeler Insurance,Bike Insurance,Renewal</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.626911'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;2 wheeler insurance&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='26357.0'>
+                  <node-reference>
+                    <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.183487'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;Bharti Axa&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='18732.824175824175'>
+                  <node-reference>
+                    <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{D1410FAA-820C-493B-9A84-05725530ABAB}' />
+    </worksheet>
+    <worksheet name='Impression Trend'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (KW Report Main)' name='federated.138lbl30ul6s6e10fjq9h0hrl1gb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.138lbl30ul6s6e10fjq9h0hrl1gb'>
+            <column datatype='string' name='[Campaign Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Impressions]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Month-Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Month-Year]' derivation='Month' name='[mn:Month-Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Campaign Type]' derivation='None' name='[none:Campaign Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Impressions]' derivation='Sum' name='[sum:Impressions:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Impressions:qk]' value='n#,##0,K;-#,##0,K' />
+            <format attr='width' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok]' value='30' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]' />
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Impressions:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='360' />
+                <format attr='maxheight' value='360' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Impressions:qk]</rows>
+        <cols>([federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk] / [federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok])</cols>
+        <annotations>
+          <annotation class='area' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run>There is a drop of 50% in Generic Set of Campaings, which led to drop in clicks. However, Impression volume for Brand, Brand Patner and competitor remains similar.</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.827586'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]</field>
+                      <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;Brand Partners&quot;</bucket>
+                      <bucket>3</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='201186.59166666667'>
+                  <node-reference>
+                    <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Impressions:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.62069'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]</field>
+                      <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[mn:Month-Year:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;Competitor&quot;</bucket>
+                      <bucket>5</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='134498.00000000003'>
+                  <node-reference>
+                    <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Impressions:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{D541BF70-8315-4D4F-87AB-C2EB19506D19}' />
+    </worksheet>
+    <worksheet name='KW Conversion'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (KW Report Main)' name='federated.138lbl30ul6s6e10fjq9h0hrl1gb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.138lbl30ul6s6e10fjq9h0hrl1gb'>
+            <column datatype='string' name='[Campaign Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Conversion]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Keyword]' role='dimension' type='nominal' />
+            <column-instance column='[Campaign Type]' derivation='None' name='[none:Campaign Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Keyword]' derivation='None' name='[none:Keyword:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Conversion]' derivation='Sum' name='[sum:Conversion:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' />
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]' />
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword:nk]' />
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <annotations>
+          <annotation class='area' id='1' text-pinx='0.5' text-piny='0.5' text-width-delta='3'>
+            <formatted-text>
+              <run>Online KW theme has maximum conversions in generic campaing type.</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.779559'>
+                  <node-reference />
+                </x-coord>
+                <y-coord cell-offset='0.0561122'>
+                  <node-reference />
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.995992'>
+                  <node-reference />
+                </x-coord>
+                <y-coord cell-offset='0.278557'>
+                  <node-reference />
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.486486' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{211E87AA-660C-4A87-925B-17AF3A281F15}' />
+    </worksheet>
+    <worksheet name='Monthly Overview'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Monthly Overview of two wheeler Insuarance Aggregator.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (KW Report Main)' name='federated.138lbl30ul6s6e10fjq9h0hrl1gb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.138lbl30ul6s6e10fjq9h0hrl1gb'>
+            <column datatype='string' name='[Campaign Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Clicks]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Conversion]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Month-Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Campaign Type]' derivation='None' name='[none:Campaign Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Clicks]' derivation='Sum' name='[sum:Clicks:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Conversion]' derivation='Sum' name='[sum:Conversion:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month-Year]' derivation='Month-Trunc' name='[tmn:Month-Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]'>
+            <groupfilter from='&quot;Brand Partners&quot;' function='range' level='[none:Campaign Type:nk]' to='&quot;Generic&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' field-type='quantitative' fold='true' max='1500' min='0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]' />
+              <size column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='top' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]' />
+              <text column='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='bottom' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk] + [federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Conversion:qk])</rows>
+        <cols>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[tmn:Month-Year:qk]</cols>
+        <annotations>
+          <annotation class='area' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run>Number of clicks has been fallen by 39% from March-21 to June-21 which led to drop in conversions during that period.</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='#2021-03-26 03:34:48.751#'>
+                  <node-reference>
+                    <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[tmn:Month-Year:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='22617.0'>
+                  <node-reference>
+                    <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='#2021-06-07 20:36:05.618#'>
+                  <node-reference>
+                    <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[tmn:Month-Year:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='18049.03448275862'>
+                  <node-reference>
+                    <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{ADDF42F2-6F29-409E-933E-434E1DDFB6B1}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='2-Wheeler Insurance Story' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>DATA VISUALIZATION IN DIGITAL MARKETING FOR INSURANCE AGGREGATOR</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='story-description'>
+          <format attr='background-color' value='#898989d9' />
+          <format attr='border-color' value='#1b1b1b' />
+          <format attr='border-width' value='2' />
+        </style-rule>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='177' />
+          <format attr='color' value='#000000' />
+          <format attr='font-weight' value='bold' />
+        </style-rule>
+        <style-rule element='story-title'>
+          <format attr='font-style' value='normal' />
+          <format attr='font-weight' value='bold' />
+          <format attr='font-size' value='15' />
+        </style-rule>
+      </style>
+      <size maxheight='827' maxwidth='1169' minheight='827' minwidth='1169' preset-index='16' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98066' id='7' param='vert' removable='false' type-v2='layout-flow' w='98632' x='684' y='967'>
+            <zone h='3869' id='8' type-v2='title' w='98632' x='684' y='967'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='94197' id='1' param='vert' removable='false' type-v2='layout-flow' w='98632' x='684' y='4836'>
+              <zone fixed-size='116' h='14027' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98632' x='684' y='4836' />
+              <zone h='80170' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98632' x='684' y='18863'>
+                <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                  <story-points>
+                    <story-point caption='DATA VISUALIZATION IN DIGITAL MARKETING FOR INSURANCE AGGREGATOR' captured-sheet='' id='1' />
+                    <story-point caption='Monthly Overview of Two Wheeler Insurance Aggregator. ' captured-sheet='Monthly Overview' id='2' />
+                    <story-point caption='Impressions Trend Across Campaing Type and Months' captured-sheet='Impression Trend' id='3' />
+                    <story-point caption='Campaing Type and respective Bounce Rates' captured-sheet='Campaign type BR' id='4' />
+                    <story-point caption='Clicks vs Conversions for Generic Keyword Themes' captured-sheet='Generic KW Theme' id='5'>
+                      <capturedDeltas>
+                        <worksheet name='Generic KW Theme'>
+                          <annotations>
+                            <annotation class='area' delta-type='edited' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+                              <formatted-text>
+                                <run>Top 5 keyword themes as per the conversion rate are Online, Two Wheeler, Renewal and Scooter Insurance.</run>
+                              </formatted-text>
+                              <top-left>
+                                <visual-coordinate class='axis'>
+                                  <x-coord cell-offset='0.2'>
+                                    <node-reference>
+                                      <fields>
+                                        <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]</field>
+                                      </fields>
+                                      <multibucket>
+                                        <bucket>&quot;New India&quot;</bucket>
+                                      </multibucket>
+                                    </node-reference>
+                                  </x-coord>
+                                  <y-coord axis-value='22689.918238993709'>
+                                    <node-reference>
+                                      <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]</axis>
+                                    </node-reference>
+                                  </y-coord>
+                                  <page-reference />
+                                </visual-coordinate>
+                              </top-left>
+                              <bottom-right>
+                                <visual-coordinate class='axis'>
+                                  <x-coord cell-offset='0'>
+                                    <node-reference>
+                                      <fields>
+                                        <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]</field>
+                                      </fields>
+                                      <multibucket>
+                                        <bucket>&quot;Activa&quot;</bucket>
+                                      </multibucket>
+                                    </node-reference>
+                                  </x-coord>
+                                  <y-coord axis-value='16198.53459119497'>
+                                    <node-reference>
+                                      <axis>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]</axis>
+                                    </node-reference>
+                                  </y-coord>
+                                  <page-reference />
+                                </visual-coordinate>
+                              </bottom-right>
+                              <text x='0.5' y='0.5' />
+                            </annotation>
+                          </annotations>
+                        </worksheet>
+                      </capturedDeltas>
+                    </story-point>
+                    <story-point caption='Keyword Conersions based on compaing type  (Brand, Brand Patners, Generic and competitor)&#9;' captured-sheet='KW Conversion' id='6' />
+                    <story-point caption='Campaign Level Conversion VS Coversion Rate and CPC and CTR' captured-sheet='Conversion Rate' id='7' />
+                    <story-point caption='Conclusion' captured-sheet='Conclusion' id='8' />
+                  </story-points>
+                </flipboard>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' h='51632' id='9' story-point-id='1' type-v2='text' w='86655' x='1882' y='20073'>
+          <formatted-text>
+            <run bold='true' fontalignment='0' fontcolor='#000000' fontname='Calibri,sans-serif' fontsize='24'>DATA VISUALIZATION IN DIGITAL MARKETING FOR INSURANCE AGGREGATOR</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{C2530E59-D369-4721-9BAE-CC7D0F00E249}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Conclusion'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0' />
+        <zone forceUpdate='true' h='11875' id='3' type-v2='text' w='93600' x='100' y='18500'>
+          <formatted-text>
+            <run fontsize='15'>The CPC on exact match keywords is 60% higher than broad match keywords, considering similar conversions rates and improving on the CPCs we will be able to reduce overall cost per transaction/acquistion by 35%</run>
+            <run>Æ&#10;&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='6125' id='4' type-v2='text' w='87000' x='1000' y='3500'>
+          <formatted-text>
+            <run fontsize='24'>Key Points to Optimize the Campaigns:</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='26625' id='7' type-v2='text' w='94400' x='0' y='29875'>
+          <formatted-text>
+            <run fontsize='15'>The CPT for Competitor campaigns has improved by 40% from Jan-21 to June-21. The overall coversions will take a jump of 10% with increased scale of these campaigns. </run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='23' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='6125' id='4' type-v2='text' w='87000' x='1000' y='3500'>
+                  <formatted-text>
+                    <run fontsize='24'>Key Points to Optimize the Campaigns:</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11875' id='3' type-v2='text' w='93600' x='100' y='18500'>
+                  <formatted-text>
+                    <run fontsize='15'>The CPC on exact match keywords is 60% higher than broad match keywords, considering similar conversions rates and improving on the CPCs we will be able to reduce overall cost per transaction/acquistion by 35%</run>
+                    <run>Æ&#10;&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='26625' id='7' type-v2='text' w='94400' x='0' y='29875'>
+                  <formatted-text>
+                    <run fontsize='15'>The CPT for Competitor campaigns has improved by 40% from Jan-21 to June-21. The overall coversions will take a jump of 10% with increased scale of these campaigns. </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{175C03B3-E60B-4259-A6D9-8FD7BB3301EB}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Conversion Rate'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='38875' id='1' name='CL ConverVs CVR' w='88100' x='-200' y='4750' />
+        <zone h='7250' id='2' name='CL ConverVs CVR' pane-specification-id='1' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]' type-v2='color' w='11800' x='87900' y='5500' />
+        <zone h='43125' id='3' name='CPC and CTR' w='88900' x='200' y='43250' />
+        <zone h='9500' id='4' name='CPC and CTR' pane-specification-id='1' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]' type-v2='color' w='9600' x='90500' y='53875' />
+        <zone h='9500' id='5' name='CPC and CTR' pane-specification-id='2' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]' type-v2='color' w='10300' x='90000' y='44000' />
+        <zone forceUpdate='true' h='3750' id='6' type-v2='text' w='37800' x='37100' y='500'>
+          <formatted-text>
+            <run bold='true' fontsize='14'>Campaign Level Conversion Rate</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='23' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='3750' id='6' type-v2='text' w='37800' x='37100' y='500'>
+                  <formatted-text>
+                    <run bold='true' fontsize='14'>Campaign Level Conversion Rate</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38875' id='1' is-fixed='true' name='CL ConverVs CVR' w='88100' x='-200' y='4750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7250' id='2' name='CL ConverVs CVR' pane-specification-id='1' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]' type-v2='color' w='11800' x='87900' y='5500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43125' id='3' is-fixed='true' name='CPC and CTR' w='88900' x='200' y='43250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9500' id='4' name='CPC and CTR' pane-specification-id='1' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]' type-v2='color' w='9600' x='90500' y='53875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9500' id='5' name='CPC and CTR' pane-specification-id='2' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]' type-v2='color' w='10300' x='90000' y='44000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{DC8A6908-3115-4CB1-8A74-D9FE2F12D7AE}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='2-Wheeler Insurance Story'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{6AF3BB6D-D1CA-489B-A576-8986FC714DF5}' />
+    </window>
+    <window class='worksheet' hidden='true' name='CL ConverVs CVR'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]</field>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]</field>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[yr:Month-Year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{81E1DA5E-6E8E-418F-9503-B92D949DDBD2}' />
+    </window>
+    <window class='worksheet' hidden='true' name='CPC and CTR'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='142'>
+            <card pane-specification-id='1' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]' type='color' />
+            <card pane-specification-id='2' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:Avg. CPC:qk]</field>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[avg:CTR:qk]</field>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]</field>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Month:qk]</field>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[yr:Month-Year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AB890DCD-9E4B-4B66-88BF-F59280BC6C78}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Campaign type BR'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E8A09E30-A001-4CEE-A91C-6E8475A94DB7}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Conclusion'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{96F6F485-A6CA-497A-B04A-D9F562A4326A}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Conversion Rate'>
+      <viewpoints>
+        <viewpoint name='CL ConverVs CVR'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='CPC and CTR'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{54AD3818-00FB-47DA-BD5A-E0035B395DB1}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Generic KW Theme'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword theme:nk]'>
+          <bucket-selection />
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D1511EA9-174E-4681-8271-94654452C36E}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Impression Trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{54311FE1-7E56-467B-BC23-48B53CB74F23}' />
+    </window>
+    <window class='worksheet' hidden='true' name='KW Conversion'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Campaign Type:nk]</field>
+            <field>[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[none:Keyword:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5E803020-9642-4725-9C7F-8D8387C708FF}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Monthly Overview'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='154'>
+            <card pane-specification-id='1' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]' type='color' />
+            <card pane-specification-id='1' param='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[sum:Clicks:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight field='[federated.138lbl30ul6s6e10fjq9h0hrl1gb].[:Measure Names]'>
+          <bucket-selection />
+        </highlight>
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{EE88F254-B288-4750-825D-AD6F94804AD8}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='2-Wheeler Insurance Story' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
